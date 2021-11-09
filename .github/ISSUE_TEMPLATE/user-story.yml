@@ -11,11 +11,18 @@ body:
     id: user-story
     attributes:
       label: User story
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "As a (user type), I want to (task) so that (goal)."
+      description: Also, why is this important?
+      placeholder: What will the outcome be!
+      value: "As a (CDMS user type), I want to (do something) so that (goal)."
     validations:
       required: true
+  - type: input
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this [1 (low) - 5 (high)] ?
+      placeholder: priority
+      value: 3
   - type: textarea
     id: acceptance
     attributes:
