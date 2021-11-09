@@ -32,12 +32,10 @@ body:
       placeholder: Tell us what you see!
       value: ""
   - type: checkboxes
-    id: complete
+    id: terms
     attributes:
-      label: Definition of done
-      description: some description
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
-        - label: unit/functional tests added/updated
+        - label: I agree to follow this project's Code of Conduct
           required: true
-
-
