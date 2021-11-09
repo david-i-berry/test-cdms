@@ -39,8 +39,5 @@ body:
       options:
         - label: unit/functional tests added/updated
           required: true
-        - label: documentation updated
-          required: true
-        - label: live demonstration provided
-          required: true
+
 
