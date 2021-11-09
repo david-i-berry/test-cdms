@@ -1,7 +1,7 @@
 name: User story
 description: Add a user story
 title: "[User story]: "
-labels: ["User story"]
+labels: ["user-story"]
 body:
   - type: markdown
     attributes:
