@@ -30,12 +30,16 @@ body:
       label: Acceptance criteria
       description: Please provide 1..n acceptance criteria to help further understand the requirement
       placeholder: Tell us what you see!
-      value: "a"
+      value: "-[] cb"
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: Definition of done
+      description: Predefined list of what done looks like
       options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+        - label: unit/functional tests added/updated
+        required: false
+        - label: documentation updated
+        required: false
+        - label: live demonstration provided
+        required: false
