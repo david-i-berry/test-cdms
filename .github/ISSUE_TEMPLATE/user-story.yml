@@ -3,7 +3,6 @@ description: Add a user story
 title: "[User story]: "
 labels: ["User story"]
 assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
