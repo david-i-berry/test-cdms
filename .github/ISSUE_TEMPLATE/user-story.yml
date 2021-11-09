@@ -30,7 +30,7 @@ body:
       label: Acceptance criteria
       description: Please provide 1..n acceptance criteria to help further understand the requirement
       placeholder: Tell us what you see!
-      value: "-[] cb"
+      value: "- [ ] Criteria 1"
   - type: checkboxes
     id: terms
     attributes:
