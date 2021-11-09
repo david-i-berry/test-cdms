@@ -22,7 +22,9 @@ body:
       label: Priority
       description: How important is this [1 (low) - 5 (high)] ?
       placeholder: priority
-      value: 3
+      value: "3"
+    validations:
+      required: true
   - type: textarea
     id: acceptance
     attributes:
