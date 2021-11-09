@@ -30,7 +30,7 @@ body:
       label: Acceptance criteria
       description: Please provide 1..n acceptance criteria to help further understand the requirement
       placeholder: Tell us what you see!
-      value: ""
+      value: "a"
   - type: checkboxes
     id: terms
     attributes:
