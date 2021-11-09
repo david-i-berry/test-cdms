@@ -38,8 +38,8 @@ body:
       description: Predefined list of what done looks like
       options:
         - label: unit/functional tests added/updated
-        required: false
+          required: false
         - label: documentation updated
-        required: false
+          required: false
         - label: live demonstration provided
-        required: false
+          required: false
